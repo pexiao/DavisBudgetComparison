@@ -1,0 +1,35 @@
+body {
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  background-color: #2E2E2E; 
+}
+
+#Contents {
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2E2E2E; 
+  max-width: 280px;
+}
+
+h1#Title {
+  text-align: center; 
+  color: white; 
+  font-size: 25px; 
+  padding: 5px; 
+}
+
+.paragraphWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  flex-wrap: wrap;  
+}
+
+.description {
+  color: white; 
+  font-size: 10px;
+  text-align: center;
+}
